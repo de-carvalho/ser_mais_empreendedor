@@ -45,6 +45,8 @@
 
   #ser_mais_2 .text_two p {
     text-align: center;
+
+    margin: 20px;
   }
 
   #ser_mais_2 img {
