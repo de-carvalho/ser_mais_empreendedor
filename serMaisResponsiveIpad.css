@@ -16,104 +16,104 @@
     font-size: 0.8rem;
   }
 
-  .ser_mais_1 {
+  #ser_mais_1 {
     width: 100%;
   }
 
-  .ser_mais_1 img {
+  #ser_mais_1 img {
     display: none;
   }
 
-  .ser_mais_1 .btn button {
+  #ser_mais_1 .btn button {
     width: 40vw;
   }
 
-  .ser_mais_2 {
+  #ser_mais_2 {
     height: 40vh;
   }
 
-  .ser_mais_2 .text_two p {
+  #ser_mais_2 .text_two p {
     font-size: 1rem;
   }
 
-  .ser_mais_2 .img_plus_2 {
+  #ser_mais_2 .img_plus_2 {
     display: none;
   }
 
-  .ser_mais_2 .img_puzz_2 {
+  #ser_mais_2 .img_puzz_2 {
     display: none;
   }
 
-  .ser_mais_3 {
+  #ser_mais_3 {
     height: 40vh;
   }
 
-  .ser_mais_3 .puzz_img h3 {
+  #ser_mais_3 .puzz_img h3 {
     font-size: 2.5rem;
     position: relative;
   }
 
-  .ser_mais_3 .puzz_img img {
+  #ser_mais_3 .puzz_img img {
     margin: 0;
   }
 
-  .ser_mais_3 .text_three p {
+  #ser_mais_3 .text_three p {
     font-size: 0.8rem;
   }
 
-  .ser_mais_4 {
+  #ser_mais_4 {
   }
 
-  .ser_mais_4 .text_four p {
+  #ser_mais_4 .text_four p {
     font-size: 1rem;
     text-align: center;
   }
 
-  .ser_mais_4 .text_four button {
+  #ser_mais_4 .text_four button {
     width: 40vw;
   }
 
-  .ser_mais_5 .steps .step_pad {
+  #ser_mais_5 .steps .step_pad {
     width: 20vw;
   }
 
-  .ser_mais_6 {
+  #ser_mais_6 {
     height: 40vh;
   }
 
-  .ser_mais_6 .text_six h3 {
+  #ser_mais_6 .text_six h3 {
     font-size: 2rem;
   }
 
-  .ser_mais_6 .text_six p {
+  #ser_mais_6 .text_six p {
     font-size: 0.7rem;
   }
 
-  .ser_mais_6 .text_six button {
+  #ser_mais_6 .text_six button {
     width: 20vw;
   }
 
-  .ser_mais_7 .inter_cement img {
+  #ser_mais_7 .inter_cement img {
     width: 30vw;
   }
 
-  .ser_mais_7 .inter_cement p {
+  #ser_mais_7 .inter_cement p {
     font-size: 0.7rem;
   }
 
-  .ser_mais_7 .inter_cement button {
+  #ser_mais_7 .inter_cement button {
     width: 25vw;
   }
 
-  .ser_mais_7 .firgun img {
+  #ser_mais_7 .firgun img {
     width: 30vw;
   }
 
-  .ser_mais_7 .firgun p {
+  #ser_mais_7 .firgun p {
     font-size: 0.9rem;
   }
 
-  .ser_mais_7 .firgun button {
+  #ser_mais_7 .firgun button {
     width: 25vw;
   }
 
