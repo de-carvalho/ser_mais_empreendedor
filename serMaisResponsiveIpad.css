@@ -12,7 +12,7 @@
     align-items: center;
   }
 
-  header nav ul li {
+  header nav ul li a {
     font-size: 0.8rem;
   }
 
