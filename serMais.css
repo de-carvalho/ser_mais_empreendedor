@@ -58,9 +58,6 @@ header nav ul li a {
 
 #ser_mais_1 .img_plus {
   width: 7vw;
-  position: absolute;
-
-  margin-top: -14vw;
 }
 
 #ser_mais_1 .container {
@@ -71,14 +68,16 @@ header nav ul li a {
   width: 14vw;
   position: absolute;
   margin-left: -10vw;
-  margin-top: 25vw;
+  margin-top: 17vw;
 }
 
 #ser_mais_1 .container .img_bot {
-  width: 10vw;
-  position: absolute;
-  margin-left: 70vw;
-  margin-top: 20vw;
+  width: 5vw;
+  margin-top: 250px;
+}
+
+#ser_mais_1 .container .img_bot img {
+  width: 7vw;
 }
 
 #ser_mais_1 .plus {
@@ -109,6 +108,7 @@ header nav ul li a {
   font-weight: 600;
 
   margin-top: 20px;
+  margin-left: 50px;
 
   border-radius: 50px;
 
