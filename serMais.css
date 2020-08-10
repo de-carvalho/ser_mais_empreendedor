@@ -464,8 +464,6 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin-right: 100px;
 }
 
 #ser_mais_7 .firgun img {
