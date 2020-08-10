@@ -39,6 +39,10 @@
     text-align: center;
   }
 
+  #ser_mais_2 {
+    height: 100%;
+  }
+
   #ser_mais_2 .text_two p {
     text-align: center;
   }
@@ -97,6 +101,7 @@
 
   #ser_mais_4 .text_four button {
     width: 80vw;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
 
@@ -115,15 +120,13 @@
   #ser_mais_5 .steps {
     display: flex;
     flex-direction: column;
-    background-color: red;
   }
 
   #ser_mais_5 .steps .step_pad {
     width: 40vw;
-    height: 70vh;
+    height: 30vh;
 
     margin-left: 20px;
-    margin-bottom: 300px;
   }
 
   #ser_mais_5 .steps .step_pad img {
