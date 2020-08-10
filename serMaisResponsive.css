@@ -115,14 +115,15 @@
   #ser_mais_5 .steps {
     display: flex;
     flex-direction: column;
+    background-color: red;
   }
 
   #ser_mais_5 .steps .step_pad {
     width: 40vw;
-    height: 28vh;
+    height: 70vh;
 
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 300px;
   }
 
   #ser_mais_5 .steps .step_pad img {
