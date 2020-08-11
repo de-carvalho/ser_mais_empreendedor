@@ -68,7 +68,7 @@ header nav ul li a {
   width: 14vw;
   position: absolute;
   margin-left: -10vw;
-  margin-top: 17vw;
+  margin-top: 18vw;
 }
 
 #ser_mais_1 .container .img_bot {
@@ -150,22 +150,17 @@ header nav ul li a {
   background-image: linear-gradient(to right, #ff9a0a, #ff7705, #fd6102);
 }
 
+#ser_mais_2 img {
+  width: 14vw;
+}
+
 #ser_mais_2 .img_plus_2 {
-  width: 10vw;
-
-  position: absolute;
-
-  margin-top: 10vw;
-  margin-left: -40vw;
+  margin-top: 22vw;
 }
 
 #ser_mais_2 .img_puzz_2 {
-  width: 10vw;
-
-  position: absolute;
-
-  margin-top: 12vw;
-  margin-left: 35vw;
+  margin-top: 20vw;
+  margin-left: 20px;
 }
 
 #ser_mais_2 .text_two p {
