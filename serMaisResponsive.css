@@ -8,7 +8,8 @@
   }
 
   #ser_mais_1 .container {
-    height: 65vh;
+    width: 100%;
+    height: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -16,6 +17,9 @@
 
   #ser_mais_1 .container .mid {
     width: 100%;
+    height: 100%;
+
+    margin: 0;
   }
 
   #ser_mais_1 img {
@@ -36,6 +40,8 @@
   #ser_mais_1 .texts_one h1 {
     font-size: 2rem;
     text-align: center;
+
+    margin-top: 0.5rem;
   }
 
   #ser_mais_1 .texts_one p {
@@ -180,7 +186,7 @@
   }
 
   #ser_mais_5 .steps .step_pad {
-    width: 52vw;
+    width: 72%;
     height: 40vh;
 
     margin-left: 20px;
@@ -314,6 +320,8 @@
   footer .text_footer {
     display: flex;
     flex-direction: column;
+
+    align-items: center;
 
     margin-top: 20px;
     margin-bottom: 20px;

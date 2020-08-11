@@ -34,6 +34,8 @@
 
   #ser_mais_1 .container .mid {
     width: 100%;
+
+    margin: 30px;
   }
 
   #ser_mais_1 .btn {
