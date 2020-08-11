@@ -31,73 +31,90 @@ header nav ul li {
   cursor: pointer;
 }
 
-header nav ul li:hover {
-  text-decoration: underline;
-}
-
 header nav ul li a {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
 
+  text-transform: uppercase;
   text-decoration: none;
 
   color: #fc6006;
 }
 
+header nav ul li a:hover {
+  text-decoration: underline 3px;
+}
+
 #ser_mais_1 {
   width: 100%;
-  height: 70vh;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
   background-image: linear-gradient(to bottom, #ff940a, #ff7705, #fd6102);
 }
 
 #ser_mais_1 .img_plus {
-  width: 7vw;
+  width: 13%;
+  height: 100%;
+}
+
+#ser_mais_1 .img_plus img {
+  width: 12rem;
+}
+
+#ser_mais_1 .container .mid {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #ser_mais_1 .container {
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+#ser_mais_1 .container .mid .ser_logo img {
+  width: 18.5rem;
 }
 
 #ser_mais_1 .container .img_top {
-  width: 14vw;
+  width: 14.5%;
+  height: 100%;
+
+  margin-top: 18rem;
+}
+
+#ser_mais_1 .container .img_top img {
+  width: 14rem;
   position: absolute;
-  margin-left: -10vw;
-  margin-top: 18vw;
 }
 
 #ser_mais_1 .container .img_bot {
-  width: 5vw;
-  margin-top: 250px;
+  width: 16%;
+  height: 100%;
+
+  margin-top: 15rem;
 }
 
 #ser_mais_1 .container .img_bot img {
-  width: 7vw;
-}
-
-#ser_mais_1 .plus {
-  width: 10vw;
+  width: 16rem;
 }
 
 .texts_one h1 {
-  font-size: 65px;
+  font-size: 3rem;
   color: #fff;
 }
 .texts_one p {
-  font-size: 20px;
+  font-size: 1rem;
 
   margin-top: 20px;
 
   color: #fff;
-}
-
-#ser_mais_1 img {
-  margin-left: 60px;
 }
 
 .texts_one .btn button {
@@ -108,7 +125,6 @@ header nav ul li a {
   font-weight: 600;
 
   margin-top: 20px;
-  margin-left: 50px;
 
   border-radius: 50px;
 
@@ -141,42 +157,70 @@ header nav ul li a {
 
 #ser_mais_2 {
   width: 100%;
-  height: 70vh;
+  height: 100%;
 
   display: flex;
   justify-content: center;
-  align-items: center;
 
   background-image: linear-gradient(to right, #ff9a0a, #ff7705, #fd6102);
 }
 
-#ser_mais_2 img {
-  width: 12vw;
+#ser_mais_2 .mid_2 {
+  width: 90%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0;
 }
 
 #ser_mais_2 .img_plus_2 {
-  margin-top: 22vw;
+  height: 100%;
+
+  margin-top: 25rem;
+}
+
+#ser_mais_2 .img_plus_2 img {
+  width: 12rem;
+}
+
+#ser_mais_2 .img_2 {
+  height: 60%;
+}
+
+#ser_mais_2 .img_2 img {
+  width: 25rem;
 }
 
 #ser_mais_2 .img_puzz_2 {
-  margin-top: 20vw;
-  margin-left: 20px;
+  height: 100%;
+
+  margin-top: 21rem;
+}
+
+#ser_mais_2 .img_puzz_2 img {
+  width: 9rem;
 }
 
 #ser_mais_2 .text_two p {
   font-size: 20px;
+  margin-bottom: 2rem;
   color: #fff;
 }
 
-#ser_mais_2 .img_2 img {
+#ser_mais_2 .text_two .two_top {
   width: 30vw;
+}
 
-  margin-left: 60px;
+#ser_mais_2 .text_two .two_bot {
+  width: 30vw;
 }
 
 #ser_mais_3 {
   width: 100%;
-  height: 100%;
+  height: 65vh;
 
   display: flex;
   justify-content: center;
@@ -210,6 +254,16 @@ header nav ul li a {
   color: #fff;
 }
 
+#ser_mais_3 .text_three .three_top {
+  width: 60vw;
+}
+
+#ser_mais_3 .text_three .three_bot {
+  width: 60vw;
+
+  margin-top: 2rem;
+}
+
 #ser_mais_3 .text_three p {
   font-size: 20px;
   color: #fff;
@@ -233,6 +287,16 @@ header nav ul li a {
 
   margin-top: 10vw;
   margin-bottom: 10vh;
+}
+
+#ser_mais_4 .text_four .four_top {
+  width: 55vw;
+}
+
+#ser_mais_4 .text_four .four_bot {
+  width: 55vw;
+
+  margin-top: 2rem;
 }
 
 #ser_mais_4 .text_four p {
@@ -265,11 +329,21 @@ header nav ul li a {
   filter: brightness(90%);
 }
 
+#ser_mais_4 .text_four2 .four_h3 {
+  width: 30vw;
+  margin-left: 5rem;
+}
+
 #ser_mais_4 .text_four2 h3 {
   font-size: 50px;
   font-weight: 900;
 
   color: #fff;
+}
+
+#ser_mais_4 .text_four2 .four_img img {
+  width: 15rem;
+  margin-right: 8rem;
 }
 
 #ser_mais_5 {
@@ -283,7 +357,6 @@ header nav ul li a {
 
   background-color: #f7f7f7;
 }
-
 #ser_mais_5 h3 {
   font-size: 80px;
   font-weight: bold;
@@ -305,14 +378,17 @@ header nav ul li a {
 }
 
 #ser_mais_5 .steps {
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   margin-top: 40px;
 }
 
 #ser_mais_5 .steps .step_pad {
-  width: 15vw;
-  height: 35vh;
+  width: 18%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -328,22 +404,42 @@ header nav ul li a {
   border: 5px solid #fd6102;
 }
 
-#ser_mais_5 .steps .step_pad img {
-  width: 5vw;
-
-  margin-bottom: 10px;
-}
-
 #ser_mais_5 .steps .step_pad h4 {
   font-size: 25px;
 
-  margin-bottom: 5px;
+  margin: 1rem 0 1rem 0;
 
   text-transform: uppercase;
 }
 
-#ser_mais_5 .steps .step_pad p {
-  font-size: 15px;
+#ser_mais_5 .steps .step_pad .step_img {
+  width: 10vw;
+  height: 12vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ser_mais_5 .steps .step_pad img {
+  width: 5rem;
+
+  margin-bottom: 10px;
+}
+
+#ser_mais_5 .steps .step_pad .img_tp img {
+  width: 4rem;
+}
+
+#ser_mais_5 .steps .step_pad .step_text {
+  width: 15vw;
+  height: 15vh;
+
+  font-size: 1rem;
+}
+
+#ser_mais_5 .steps .step_pad .step_text p {
+  font-size: 1rem;
 }
 
 #ser_mais_6 {
@@ -365,6 +461,10 @@ header nav ul li a {
   margin-left: 70px;
 }
 
+#ser_mais_6 .text_six .h3_6 {
+  width: 35vw;
+}
+
 #ser_mais_6 .text_six h3 {
   font-size: 80px;
   font-weight: bold;
@@ -376,6 +476,10 @@ header nav ul li a {
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#ser_mais_6 .text_six .text_6 {
+  width: 35vw;
 }
 
 #ser_mais_6 .text_six p {
@@ -416,8 +520,15 @@ header nav ul li a {
   background-image: linear-gradient(to bottom, #ff940a, #ff7705, #fd6102);
 }
 
+#ser_mais_7 .mid_7 {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
 #ser_mais_7 p {
-  font-size: 14px;
+  font-size: 14.5px;
 
   text-align: center;
 
@@ -430,12 +541,14 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin-left: 100px;
 }
 
 #ser_mais_7 .inter_cement img {
-  width: 25vw;
+  width: 21vw;
+}
+
+#ser_mais_7 .inter_cement .inter_text {
+  width: 40vw;
 }
 
 #ser_mais_7 .inter_cement button {
@@ -472,8 +585,12 @@ header nav ul li a {
   width: 18vw;
 }
 
+#ser_mais_7 .firgun .firgun_text {
+  width: 30vw;
+}
+
 #ser_mais_7 .firgun p {
-  font-size: 18px;
+  font-size: 18.3px;
 }
 
 #ser_mais_7 .firgun button {
@@ -512,7 +629,7 @@ footer {
 }
 
 footer .text_footer {
-  width: 20vw;
+  width: 55%;
   display: flex;
   justify-content: space-between;
 }
@@ -527,19 +644,6 @@ footer p {
 footer p a {
   text-decoration: none;
   color: #c5c6c8;
-}
-
-footer .social {
-  display: flex;
-  align-items: center;
-}
-
-footer .icon {
-  width: 2vw;
-
-  margin: 5px;
-
-  cursor: pointer;
 }
 
 .orange_stripe {
