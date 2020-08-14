@@ -50,7 +50,7 @@
   }
 
   #ser_mais_2 {
-    height: 100%;
+    height: 100vh;
   }
 
   #ser_mais_2 .text_two p {
@@ -72,6 +72,7 @@
   }
 
   #ser_mais_3 {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -82,7 +83,6 @@
   #ser_mais_3 .puzz_img h3 {
     font-size: 2rem;
     position: relative;
-    margin-left: 20vw;
   }
 
   #ser_mais_3 .text_three {
@@ -115,7 +115,8 @@
   }
 
   #ser_mais_4 {
-    height: 100%;
+    width: 100%;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -131,6 +132,8 @@
   #ser_mais_4 .text_four2 .four_h3 {
     width: 100%;
     margin: 0;
+
+    background-color: red;
   }
 
   #ser_mais_4 .text_four2 h3 {

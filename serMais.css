@@ -179,7 +179,7 @@ header nav ul li a:hover {
 #ser_mais_2 .img_plus_2 {
   height: 100%;
 
-  margin-top: 25rem;
+  margin-top: 30rem;
 }
 
 #ser_mais_2 .img_plus_2 img {
@@ -187,7 +187,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_2 .img_2 {
-  height: 60%;
+  height: 30%;
 }
 
 #ser_mais_2 .img_2 img {
@@ -197,7 +197,7 @@ header nav ul li a:hover {
 #ser_mais_2 .img_puzz_2 {
   height: 100%;
 
-  margin-top: 21rem;
+  margin-top: 22rem;
 }
 
 #ser_mais_2 .img_puzz_2 img {
@@ -241,15 +241,14 @@ header nav ul li a:hover {
 #ser_mais_3 .puzz_img img {
   width: 25vw;
 
-  margin-top: 10vw;
+  margin-top: 0vw;
 }
 
 #ser_mais_3 .puzz_img h3 {
   font-size: 70px;
   font-weight: bold;
 
-  position: absolute;
-  margin-top: 7vw;
+  margin-top: 9vw;
 
   color: #fff;
 }
@@ -265,7 +264,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_3 .text_three p {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -300,7 +299,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_4 .text_four p {
-  font-size: 25px;
+  font-size: 22px;
   color: #fff;
 
   margin-right: 60px;
@@ -357,6 +356,7 @@ header nav ul li a:hover {
 
   background-color: #f7f7f7;
 }
+
 #ser_mais_5 h3 {
   font-size: 80px;
   font-weight: bold;
@@ -373,7 +373,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_5 p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -405,7 +405,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_5 .steps .step_pad h4 {
-  font-size: 25px;
+  font-size: 20px;
 
   margin: 1rem 0 1rem 0;
 
@@ -439,7 +439,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_5 .steps .step_pad .step_text p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 #ser_mais_6 {
@@ -466,7 +466,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_6 .text_six h3 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
 }
 
