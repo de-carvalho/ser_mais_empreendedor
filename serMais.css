@@ -5,6 +5,10 @@
   font-family: 'Allerta', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 header {
   width: 100%;
   height: 70px;
@@ -106,7 +110,7 @@ header nav ul li a:hover {
 }
 
 .texts_one h1 {
-  font-size: 3rem;
+  font-size: 4.5rem;
   color: #fff;
 }
 .texts_one p {
@@ -191,7 +195,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_2 .img_2 img {
-  width: 25rem;
+  width: 30rem;
 }
 
 #ser_mais_2 .img_puzz_2 {
@@ -205,17 +209,18 @@ header nav ul li a:hover {
 }
 
 #ser_mais_2 .text_two p {
-  font-size: 20px;
+  margin-right: 6rem;
   margin-bottom: 2rem;
+
   color: #fff;
 }
 
 #ser_mais_2 .text_two .two_top {
-  width: 30vw;
+  width: 37vw;
 }
 
 #ser_mais_2 .text_two .two_bot {
-  width: 30vw;
+  width: 37vw;
 }
 
 #ser_mais_3 {
@@ -228,6 +233,12 @@ header nav ul li a:hover {
 
   background-image: linear-gradient(to right, #ff900a, #ff7305, #fd6102);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#ser_mais_3 .mid_3 {
+  width: 67%;
+  display: flex;
+  align-items: center;
 }
 
 #ser_mais_3 .puzz_img {
@@ -254,17 +265,16 @@ header nav ul li a:hover {
 }
 
 #ser_mais_3 .text_three .three_top {
-  width: 60vw;
+  width: 45vw;
 }
 
 #ser_mais_3 .text_three .three_bot {
-  width: 60vw;
+  width: 45vw;
 
   margin-top: 2rem;
 }
 
 #ser_mais_3 .text_three p {
-  font-size: 16px;
   color: #fff;
 }
 
@@ -279,27 +289,34 @@ header nav ul li a:hover {
   background-image: linear-gradient(to right, #ff9a0a, #ff7705, #fd6102);
 }
 
+#ser_mais_4 .mid_4 {
+  width: 67%;
+
+  display: flex;
+  align-items: center;
+}
+
 #ser_mais_4 .text_four2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  margin-top: 10vw;
+  margin-top: 7vw;
   margin-bottom: 10vh;
 }
 
 #ser_mais_4 .text_four .four_top {
-  width: 55vw;
+  width: 45vw;
 }
 
 #ser_mais_4 .text_four .four_bot {
-  width: 55vw;
+  width: 45vw;
 
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 #ser_mais_4 .text_four p {
-  font-size: 22px;
   color: #fff;
 
   margin-right: 60px;
@@ -361,7 +378,7 @@ header nav ul li a:hover {
   font-size: 80px;
   font-weight: bold;
 
-  margin-top: 30px;
+  margin: 30px 0 20px 0;
 }
 
 #ser_mais_5 .fill {
@@ -372,13 +389,16 @@ header nav ul li a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+#ser_mais_5 .text_5 {
+  width: 65%;
+}
+
 #ser_mais_5 p {
-  font-size: 16px;
   text-align: center;
 }
 
 #ser_mais_5 .steps {
-  width: 100%;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -387,14 +407,14 @@ header nav ul li a:hover {
 }
 
 #ser_mais_5 .steps .step_pad {
-  width: 18%;
+  width: 28%;
   height: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  margin-right: 30px;
+  margin-left: 40px;
   margin-bottom: 30px;
   padding: 10px;
 
@@ -438,10 +458,6 @@ header nav ul li a:hover {
   font-size: 1rem;
 }
 
-#ser_mais_5 .steps .step_pad .step_text p {
-  font-size: 0.9rem;
-}
-
 #ser_mais_6 {
   width: 100%;
   height: 100%;
@@ -483,8 +499,6 @@ header nav ul li a:hover {
 }
 
 #ser_mais_6 .text_six p {
-  font-size: 18px;
-
   margin-top: 20px;
   margin-bottom: 15px;
 }
@@ -528,8 +542,6 @@ header nav ul li a:hover {
 }
 
 #ser_mais_7 p {
-  font-size: 14.5px;
-
   text-align: center;
 
   margin-top: 20px;
@@ -587,10 +599,8 @@ header nav ul li a:hover {
 
 #ser_mais_7 .firgun .firgun_text {
   width: 30vw;
-}
 
-#ser_mais_7 .firgun p {
-  font-size: 18.3px;
+  margin: 1.5rem 0 4rem 0;
 }
 
 #ser_mais_7 .firgun button {

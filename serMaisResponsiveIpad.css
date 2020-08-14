@@ -51,6 +51,18 @@
     height: 40vh;
   }
 
+  #ser_mais_2 .img_2 img {
+    width: 18rem;
+  }
+
+  #ser_mais_2 .text_two .two_top {
+    width: 55vw;
+  }
+
+  #ser_mais_2 .text_two .two_bot {
+    width: 55vw;
+  }
+
   #ser_mais_2 .text_two p {
     font-size: 1rem;
   }
@@ -67,6 +79,12 @@
     height: 40vh;
   }
 
+  #ser_mais_3 .mid_3 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+
   #ser_mais_3 .puzz_img h3 {
     font-size: 2.5rem;
     position: relative;
@@ -74,6 +92,16 @@
 
   #ser_mais_3 .puzz_img img {
     margin: 0;
+  }
+
+  #ser_mais_3 .text_three .three_top {
+    width: 60vw;
+  }
+
+  #ser_mais_3 .text_three .three_bot {
+    width: 60vw;
+
+    margin-top: 2rem;
   }
 
   #ser_mais_3 .text_three p {
@@ -88,6 +116,15 @@
     justify-content: center;
 
     flex-direction: column-reverse;
+  }
+
+  #ser_mais_4 .mid_4 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
 
   #ser_mais_4 img {
@@ -114,13 +151,13 @@
   }
 
   #ser_mais_4 .text_four .four_top {
-    width: 90%;
+    width: 60vw;
 
     margin-left: 5rem;
   }
 
   #ser_mais_4 .text_four .four_bot {
-    width: 90%;
+    width: 60vw;
 
     margin-left: 5rem;
   }
@@ -133,7 +170,7 @@
   #ser_mais_4 .text_four button {
     width: 40vw;
 
-    margin-left: 15rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
   }
 
@@ -198,6 +235,12 @@
 
   #ser_mais_7 .firgun p {
     font-size: 0.9rem;
+  }
+
+  #ser_mais_7 .firgun .firgun_text {
+    width: 30vw;
+
+    margin: 0.8rem 0 0.1rem 0;
   }
 
   #ser_mais_7 .firgun button {

@@ -38,7 +38,7 @@
   }
 
   #ser_mais_1 .texts_one h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 
     margin-top: 0.5rem;
@@ -50,7 +50,7 @@
   }
 
   #ser_mais_2 {
-    height: 100vh;
+    height: 80vh;
   }
 
   #ser_mais_2 .text_two p {
@@ -80,9 +80,15 @@
     justify-content: center;
   }
 
+  #ser_mais_3 .mid_3 {
+    display: flex;
+    flex-direction: column;
+  }
+
   #ser_mais_3 .puzz_img h3 {
     font-size: 2rem;
-    position: relative;
+
+    margin-left: 2rem;
   }
 
   #ser_mais_3 .text_three {
@@ -94,11 +100,11 @@
   }
 
   #ser_mais_3 .text_three .three_top {
-    width: 90%;
+    width: 90vw;
   }
 
   #ser_mais_3 .text_three .three_bot {
-    width: 90%;
+    width: 90vw;
 
     margin-top: 1rem;
   }
@@ -125,6 +131,11 @@
     flex-direction: column-reverse;
   }
 
+  #ser_mais_4 .mid_4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   #ser_mais_4 img {
     display: none;
   }
@@ -132,12 +143,10 @@
   #ser_mais_4 .text_four2 .four_h3 {
     width: 100%;
     margin: 0;
-
-    background-color: red;
   }
 
   #ser_mais_4 .text_four2 h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 
     margin-top: 2rem;
   }
@@ -163,7 +172,7 @@
 
   #ser_mais_4 .text_four button {
     width: 80vw;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-bottom: 20px;
   }
 
@@ -190,9 +199,9 @@
 
   #ser_mais_5 .steps .step_pad {
     width: 72%;
-    height: 40vh;
+    height: 35vh;
 
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   #ser_mais_5 .steps .step_pad img {
@@ -282,7 +291,7 @@
   }
 
   #ser_mais_7 .inter_cement .inter_text p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   #ser_mais_7 .inter_cement button {
@@ -301,7 +310,7 @@
   }
 
   #ser_mais_7 .firgun .firgun_text p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   #ser_mais_7 .firgun button {
