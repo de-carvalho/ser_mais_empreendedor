@@ -1,10 +1,11 @@
 @media (max-width: 900px) {
   header {
-    width: 100%;
-    display: flex;
+    display: none;
+    /* width: 100%;
+    display: flex; */
   }
 
-  header img {
+  /* header img {
     margin-left: 1rem;
   }
 
@@ -22,7 +23,7 @@
   header nav ul li a {
     font-size: 0.7rem;
     margin: 2px;
-  }
+  } */
 
   #ser_mais_1 {
     width: 100%;
