@@ -1,11 +1,10 @@
 @media (max-width: 900px) {
   header {
-    display: none;
-    /* width: 100%;
-    display: flex; */
+    width: 100%;
+    display: flex;
   }
 
-  /* header img {
+  header img {
     margin-left: 1rem;
   }
 
@@ -23,7 +22,7 @@
   header nav ul li a {
     font-size: 0.7rem;
     margin: 2px;
-  } */
+  }
 
   #ser_mais_1 {
     width: 100%;
@@ -77,7 +76,7 @@
   }
 
   #ser_mais_3 {
-    height: 40vh;
+    height: 50vh;
   }
 
   #ser_mais_3 .mid_3 {
