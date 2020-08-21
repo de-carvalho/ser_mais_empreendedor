@@ -552,6 +552,8 @@ header nav ul li a:hover {
 }
 
 #ser_mais_7 .inter_cement {
+  height: 65vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -565,6 +567,11 @@ header nav ul li a:hover {
 
 #ser_mais_7 .inter_cement .inter_text {
   width: 40vw;
+  height: 40vh;
+}
+
+#ser_mais_7 .firgun .inter_text p {
+  font-size: 90%;
 }
 
 #ser_mais_7 .inter_cement button {
@@ -574,7 +581,7 @@ header nav ul li a:hover {
   font-size: 14px;
   font-weight: 600;
 
-  margin-top: 20px;
+  margin-top: 1.5rem;
 
   border-radius: 50px;
   border: none;
@@ -592,6 +599,7 @@ header nav ul li a:hover {
 }
 
 #ser_mais_7 .firgun {
+  height: 65vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -605,8 +613,13 @@ header nav ul li a:hover {
 
 #ser_mais_7 .firgun .firgun_text {
   width: 30vw;
+  height: 37vh;
 
-  margin: 1.5rem 0 2.7rem 0;
+  margin: 2rem 0 0rem 0;
+}
+
+#ser_mais_7 .firgun .firgun_text p {
+  font-size: 90%;
 }
 
 #ser_mais_7 .firgun button {
@@ -616,8 +629,7 @@ header nav ul li a:hover {
   font-size: 14px;
   font-weight: 600;
 
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 1.5rem;
 
   border-radius: 50px;
   border: none;
